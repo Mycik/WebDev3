@@ -1,0 +1,44 @@
+.main-page {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-page__column {
+  flex: 1 1 48%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .main-page {
+    flex-direction: column;
+  }
+
+  .main-page__column {
+    flex: 1 1 100%;
+  }
+}
+
+.main-page__header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.main-page__logout-button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-page__logout-button:hover {
+  background-color: #d9363e;
+}

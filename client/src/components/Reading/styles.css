@@ -1,0 +1,56 @@
+.reading-progress__item {
+  background-color: #f9f9f9;
+  border: 1px solid #cccccc;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reading-progress__item h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #222222;
+}
+
+.reading-progress__info {
+  margin-bottom: 0.5rem;
+}
+
+.reading-progress__label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #666666;
+}
+
+.reading-progress__input {
+  margin-top: 0.4rem;
+  padding: 0.6rem;
+  width: 100%;
+  border: 1px solid #cccccc;
+  background-color: #f5f5f5;
+  color: #333333;
+  font-size: 1rem;
+}
+
+.reading-progress__input:focus {
+  border-color: #7f5af0;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.reading-progress__button {
+  margin-top: 1rem;
+  margin-right: 0.75rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #7f5af0;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.reading-progress__button:hover {
+  background-color: #6847d6;
+}

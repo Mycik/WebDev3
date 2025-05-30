@@ -1,0 +1,13 @@
+.reading-progress {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.reading-progress__header {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #111111;
+}
