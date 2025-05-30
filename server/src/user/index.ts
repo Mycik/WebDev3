@@ -10,6 +10,8 @@ import {
   MeController,
   RegisterUserController,
 } from "./controllers/UserControllers";
+import "./models/UserModel";
+import "./models/RefreshTokenModel";
 
 dotenv.config();
 
