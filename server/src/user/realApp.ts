@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 
-app.post('/register', RegisterUserController);
+app.post('/login', RegisterUserController);
 
 export const readyApp = async () => {
   await sequelize.sync();
