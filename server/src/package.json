@@ -2,13 +2,15 @@
   "name": "src",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+  "test": "jest",
+  "test:coverage": "jest --coverage"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.52.0",
     "@types/node": "^22.15.23"
   }
 }
