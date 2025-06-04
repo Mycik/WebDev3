@@ -10,7 +10,7 @@ beforeAll(async () => {
   app = await readyApp();
 
   // Створюємо користувача перед логіном
-  email = `akajzafivemin@gmail.com`;
+  email = `login${Date.now()}@example.com`;
 
   await request(app)
     .post('/register')
@@ -32,7 +32,7 @@ describe('REAL LOGIN TEST', () => {
   it('should fail login with wrong password', async () => {
     const res = await request(app)
       .post('/login')
-      .send({ email, password: 'dsfdwfdsfdsfdsf' });
+      .send({ email, password: 'wrongpass' });
 
     expect(res.status).toBe(400);
     expect(res.body.message).toBe("Invalid credentials");
