@@ -1,4 +1,3 @@
-// tests/user/UserRoutes.int.test.ts
 import request from 'supertest';
 import app from '../../src/user/testApp';
 
